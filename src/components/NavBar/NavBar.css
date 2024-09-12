@@ -1,0 +1,42 @@
+.bg-my-primary{
+    background-color: var(--my-primary-color);
+}
+nav .logo img{
+    width: 140px;
+}
+nav .link-nav{
+   font-size: 15px;
+}
+nav .link-Color:hover{
+    color: var(--my-primary-color);
+}
+nav .btn-hover{
+    border: 2px solid var(--my-primary-color);
+}
+nav .btn-hover:hover{
+    color: var( --my-primary-color);
+    background-color: var( --text-color);
+    border: 2px solid var(--my-primary-color);
+}
+nav .me-280 {
+    margin-right: 100px;
+}
+@media (min-width: 993px ) and (max-width: 1218px ) {
+    nav .me-280 {
+        margin-right: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1104px ){
+    nav button{
+      width: 100%;
+    }
+    nav .me-280 {
+        margin-right: 0;
+    }
+}
+@media (max-width: 500px ) {
+    nav .me-280 {
+        margin-right: 0;
+    }
+
+}

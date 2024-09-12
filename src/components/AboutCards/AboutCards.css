@@ -1,0 +1,12 @@
+ .shadow{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+ }
+.About-card #color-icon {
+   color: var(--my-primary-color);
+}
+.About-card .CardTitle-About{
+    color: var(--headings);
+}
+.About-card .Carddesc-About {
+    color: var(--text-des);
+}

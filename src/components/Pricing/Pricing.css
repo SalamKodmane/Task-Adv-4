@@ -1,0 +1,28 @@
+.PriceCard{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.PriceCard .PriceCard-Title{
+    background-color: #f5f5f5;
+    color: var(--headings);
+    margin: -20px -20px 20px -20px;
+}
+.PriceCard .PriceCard-Title:hover,
+.PriceCard .PriceCard-Title:focus{
+    background-color: var( --my-primary-color);
+    color: var( --text-color);
+}
+.PriceCard .PriceCard-Subtitle span{
+    color: #989494;
+}
+.PriceCard-Text {
+    color: var( --text-des);
+}
+.PriceCard .PriceCard-Text .Text-Line{
+    color: #989494;
+    text-decoration: line-through;
+}
+.PriceCard .bg-button{
+    display: block;
+    background-color: #f5f5f5;
+    margin: 0 -20px -20px -20px;
+}

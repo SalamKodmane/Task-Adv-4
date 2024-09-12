@@ -1,0 +1,34 @@
+.Lab-Section .Lab-Title {
+    color: var(--headings);
+}
+.Lab-Section .Lab-Title::after{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    display: block;
+    background: var(--my-primary-color);  
+    margin: auto;
+}
+.Lab-Section .Lab-desc {
+    color: var(--text-des);
+}
+.w-icon{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.w-icon .color-LabIcon{
+    color: var(--my-primary-color);
+}
+.w-icon:hover,
+.w-icon:focus{
+    background-color: var(--my-primary-color) !important;
+}
+.w-icon .color-LabIcon:hover,
+.w-icon .color-LabIcon:focus{
+    color: var(--text-color);
+}

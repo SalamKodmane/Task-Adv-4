@@ -1,0 +1,12 @@
+:root{
+    --my-primary-color : #3fbbc0;
+    --text-color : #ffffff;
+    --headings: #555555;
+    --text-des: #444444;
+    --background-color: #f7fcfc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

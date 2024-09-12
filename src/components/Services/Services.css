@@ -1,0 +1,23 @@
+.Services-icon{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    color: var(--my-primary-color);
+} 
+.ServiceCard-Title {
+    color: var(--headings);
+}
+.ServiceCard-Title::after{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 4px;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    background: var(--my-primary-color);  
+    margin: auto;
+}
+.ServiceCard-desc {
+    color: var(--text-des);
+}

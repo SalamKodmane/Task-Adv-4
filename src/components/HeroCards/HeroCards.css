@@ -1,0 +1,13 @@
+.HeroCards-section .shadowCard {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.HeroCards-section .HeroCards-Icon {
+    color: var(--my-primary-color);
+}
+.HeroCards-section .HeroCards-title {
+    color: var( --headings);
+}
+.HeroCards-section .fs-text{
+    color: var(--text-des);
+    font-size: 14px;
+}

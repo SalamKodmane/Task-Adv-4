@@ -1,0 +1,9 @@
+.shadowCard-Doctor{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.CardDoctor-Title{
+    color: var(--headings);
+}
+.CardDoctor-desc{
+    color: var( --text-des);
+}

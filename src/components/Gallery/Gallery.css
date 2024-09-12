@@ -1,0 +1,14 @@
+.Gallery .carousel-indicators button {
+    border: 1px solid var(--my-primary-color);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    margin-bottom: -50px;
+}
+.Gallery .carousel-indicators .active{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--my-primary-color);
+}

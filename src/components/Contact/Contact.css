@@ -1,0 +1,17 @@
+.Contact-Section .Card-Address{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.Contact-Section .Card-Address .Contact-Icon{
+    color: var(--my-primary-color);
+}
+.Contact-Section .Card-Address .Contact-Icon-Circle{
+    width: 56px;
+    height: 56px;
+    border: 2px dotted var(--my-primary-color);
+}
+.Contact-Section .Card-Address .Contact-Title{
+    color: var(--headings);
+}
+.Contact-Section .Card-Address .Contact-desc{
+    color: var(--text-des);
+}

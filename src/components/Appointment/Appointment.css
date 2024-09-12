@@ -1,0 +1,11 @@
+.Appointment-bg {
+    background-color: var( --background-color);
+}
+.btn-hover{
+    border: 2px solid var(--my-primary-color);
+}
+.btn-hover:hover{
+    color: var( --my-primary-color);
+    background-color: var( --text-color);
+    border: 2px solid var(--my-primary-color);
+}

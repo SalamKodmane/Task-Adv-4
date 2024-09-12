@@ -1,0 +1,40 @@
+.Hero .carousel-indicators button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+}
+.Hero .carousel-indicators .active{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--my-primary-color);
+}
+.Hero .h-600 {
+    height: 680px;
+}
+.Hero .Hero-Heading {
+    color: var(--headings);
+}
+.Hero .Hero-description {
+    color: var(--text-des);
+}
+.Hero .border-top-4 {
+    border-top: 4px solid var(--my-primary-color);
+}
+.Hero .btn-hover:hover{
+    background-color: #55b1b4;
+}
+.Hero .bottom{
+    bottom: 250px;
+}
+@media screen and (max-width: 992px) {
+    .Hero{
+        width: 100%;
+    }
+}
+@media (max-width: 472px) {
+    .Hero .bottom{
+        bottom: 130px;
+    }
+}

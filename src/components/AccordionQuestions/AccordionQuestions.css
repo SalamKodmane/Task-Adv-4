@@ -1,0 +1,6 @@
+.Accordion-bg{
+    background-color: var( --background-color);
+}
+.Accordion-Title{
+    color: var(--text-des);
+}

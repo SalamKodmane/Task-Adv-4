@@ -1,0 +1,18 @@
+.Help-Section {
+    background-color: var(--my-primary-color);
+}
+.Help-Section .py{
+    padding: 90px 0;
+}
+.Help-Section .px-text {
+    padding: 0 75px;
+}
+.Help-Section .bg-button{
+    background-color: transparent;
+    border: 2px solid var(--text-color);
+}
+.Help-Section .bg-button:hover,
+.Help-Section .bg-button:focus{
+    background-color: var(--text-color);
+    color: var(--my-primary-color);
+}

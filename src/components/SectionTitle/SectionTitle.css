@@ -1,0 +1,18 @@
+.SectionTitle .Title{
+    color: var(--headings);
+}
+.SectionTitle .Title::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 4px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    background: var(--my-primary-color);  
+    margin: auto;
+}
+.SectionTitle .SectionTitle-desc{
+    color: var(--text-des);
+}
